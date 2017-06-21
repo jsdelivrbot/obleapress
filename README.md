@@ -23,4 +23,4 @@ A simple and lightweight blank starter theme with sass, webpack, jQuery, AOS.JS 
 <li>yarn install (using yarn and node)</li>
 </ul>
 
-<h1>made by <a href="https://davigarcas.site/">David Garcia</a> under MIT License</h1>
+<h3>made by <a href="https://davigarcas.site/">David Garcia</a> under MIT License</h3>
