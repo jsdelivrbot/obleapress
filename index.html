@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="apple-touch-icon" sizes="57x57" href="./img/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="./img/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./img/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./img/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./img/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./img/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./img/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./img/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="./img/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="./img/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="./img/favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="./img/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+  <title>obleapress - Doc's</title>
+</head>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  background-image: url('./img/hero.png');
+  width: 100%;
+  height: 650px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.about {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.about h3 {
+  text-align: center;
+  font-size: 36px;
+  width: 700px;
+  font-family: 'Roboto', sans-serif;
+  color: #2698C8;
+}
+
+.prefixes{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #F6F6F6;
+}
+
+.prefixes .prefixes-text {
+  width: 480px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.prefixes .prefixes-text h3 {
+  text-align: center;
+  font-size: 36px;
+  font-family: 'Roboto', sans-serif;
+  color: #2698C8;
+  margin-bottom: 35px;
+}
+
+.prefixes .prefixes-text p {
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  color: #8D8D8D;
+}
+
+
+.real{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.real .real-text {
+  width: 480px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.real .real-text h3 {
+  text-align: center;
+  font-size: 36px;
+  font-family: 'Roboto', sans-serif;
+  color: #2698C8;
+  margin-bottom: 35px;
+}
+
+.real .real-text p {
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  color: #8D8D8D;
+}
+
+
+.sass{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #F6F6F6;
+}
+
+.sass .sass-text {
+  width: 480px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.sass .sass-text h3 {
+  text-align: center;
+  font-size: 36px;
+  font-family: 'Roboto', sans-serif;
+  color: #2698C8;
+  margin-bottom: 35px;
+}
+
+.sass .sass-text p {
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  color: #8D8D8D;
+}
+
+.obleapress{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.obleapress .obleapress-text {
+  width: 480px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.obleapress .obleapress-text h3 {
+  text-align: center;
+  font-size: 36px;
+  font-family: 'Roboto', sans-serif;
+  color: #2698C8;
+  margin-bottom: 35px;
+}
+
+.obleapress .obleapress-text p {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 35px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  color: #8D8D8D;
+}
+
+
+.npm{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #F6F6F6;
+}
+
+.npm .npm-text {
+  width: 480px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.npm .npm-text h3 {
+  text-align: center;
+  font-size: 36px;
+  font-family: 'Roboto', sans-serif;
+  color: #2698C8;
+  margin-bottom: 35px;
+}
+
+.npm .npm-text p {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 35px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  color: #8D8D8D;
+}
+
+.download {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.download .download-text {
+  width: 480px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.download  .download-text p {
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  color: #8D8D8D;
+}
+
+.download  .download-text p a {
+  text-decoration: none;
+  color: #2698C8
+}
+
+.download  .download-text p a:hover {
+  text-decoration: underline;
+  color: #3081A3;
+}
+
+.footer {
+  background-color: #1A3656;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.footer h1 {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.footer h1 a {
+  color: #67E4F6;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+</style>
+<body>
+<div class="hero"></div>
+<div class="about">
+  <h3>A simple and lightweight blank starter theme with sass, webpack, jQuery, AOS.JS and anime.js support to develop faster.</h3>
+</div>
+
+<div class="prefixes">
+  <div class="prefixes-text">
+    <h3>Forget about vendor prefixes.</h3>
+    <p>Webpack help’s to not worry about to vendor prefixes for support in
+  modern browsers.</p>
+  </div>
+</div>
+
+<div class="real">
+  <div class="real-text">
+    <h3>Real-Time development.</h3>
+    <p>Everything you do, will be real time in any browser with the same Wi-fi.</p>
+  </div>
+</div>
+
+<div class="sass">
+  <div class="sass-text">
+    <h3>Sass Support.</h3>
+    <p>Use DRY development with sass or scss.</p>
+  </div>
+</div>
+
+<div class="obleapress">
+  <div class="obleapress-text">
+    <h3>Obleapress in a project.</h3>
+    <p>You only need to type 2 commands in your terminal</p>
+    <p>1- npm run watch: for real time development</p>
+    <p>2- npm run production: for css and js production.</p>
+  </div>
+</div>
+
+<div class="npm">
+  <div class="npm-text">
+    <h3>Don’t forget to install npm dependencies:</h3>
+    <p>npm install (using npm and node)</p>
+    <p>yarn install (using yarn and node)</p>
+  </div>
+</div>
+
+<div class="download">
+  <div class="download-text">
+    <p>Download at <a href="https://github.com/davigarcas/obleapress" target="_blank"> github.com</a></p>
+  </div>
+</div>
+
+<div class="footer">
+  <h1>made by <a href="https://davigarcas.site/" target="_blank"> David Garcia</a> under MIT License</h1>
+</div>
+
+</body>
+</html>

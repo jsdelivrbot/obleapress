@@ -1,0 +1,29 @@
+/*
+Theme Name: obleapress
+Theme URI: https://obleapress.site
+Author: David Garcia C.
+Author URI: https://davigarcas.site
+GitHub Theme URI: github.com/davigarcas
+Description: obleapress is a blank starter theme with aos.js, jquery, anime.js, sass and webpack support with live reloading browser.
+That downloads everything and moves it in place so that you can recompile your CSS and JS files;
+A developer version (with webpack/node and Sass sources) is available on gitHub: https://github.com/davigarcas/obleapress
+Version: 0.0.3
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: one-column, custom-menu, featured-images, theme-options, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+
+Resource Licenses:
+jQuery: https://jquery.org | (Code licensed under MIT)
+jQuery: http://animejs.com | (Code licensed under MIT)
+jQuery: https://michalsnik.github.io/aos | (Code licensed under MIT)
+*/
+
+/*
+This file is just used to identify the theme in WordPress.
+The compiled CSS output can be found in /public/css/theme.css
+The SASS sources for it can be found in /assets/src/scss/theme.scss
+
+...and now it's when the party begins !
+*/
