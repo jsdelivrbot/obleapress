@@ -2,7 +2,7 @@
   "name": "obleapress",
   "version": "0.0.3",
   "description": "a blank starter theme to work with sass and webpack",
-  "main": "index.js",
+  "main": "index.py",
   "scripts": {
     "build": "webpack",
     "watch": "webpack --watch",
